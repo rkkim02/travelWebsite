@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/roboto/Roboto-Bold.woff2') format('woff2');
+}
+
+.parallax-container {
+    height: 600px;
+  }
+
+.image1 {
+    background-image: url("../img/beach-dock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("../img/Spain-PR.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image3 {
+    background-image: url("../img/nyc-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
