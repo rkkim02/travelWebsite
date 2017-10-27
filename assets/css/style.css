@@ -1,6 +1,8 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url('../../fonts/roboto/Roboto-Bold.woff2') format('woff2');
+body {background-color:#555;}
+.navbar-fixed {position: absolute;z-index:999999999;}
+
+.brand-logo{
+    font:bold;
 }
 
 .parallax-container {
