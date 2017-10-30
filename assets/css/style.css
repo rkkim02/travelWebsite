@@ -1,10 +1,6 @@
 body {background-color:#555;}
 .navbar-fixed {position: absolute;z-index:999999999;}
 
-.brand-logo{
-    font:bold;
-}
-
 .parallax-container {
     height: 600px;
   }

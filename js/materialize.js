@@ -25,22 +25,6 @@ if (typeof jQuery === 'undefined') {
   * https://raw.github.com/gdsmith/jquery-easing/master/LICENSE
   */
 
-  $(document).ready(function(){
-    // MODAL
-    $('.modal').modal();
-    // DROPDOWNS
-    $(".dropdown-button").dropdown(
-      {
-        belowOrigin: true
-      }
-    );
-    // TABS
-    $('ul.tabs').tabs();
-    // SCROLLSPY
-    $('.scrollspy').scrollSpy();
-    //SIDENAV
-    $(".button-collapse").sideNav();
-  });
 
 (function (factory) {
   if (typeof define === "function" && define.amd) {
