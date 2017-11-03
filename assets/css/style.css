@@ -1,23 +1,58 @@
 body {background-color:#555;}
 .navbar-fixed {position: absolute;z-index:999999999;}
 
-.parallax-container {
-    height: 600px;
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
-.image1 {
-    background-image: url("../img/beach-dock.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0 0 1rem;
+    padding: 0;
+    line-height: 1;
+    font-size: 5vw;
+  }
+  
+  
 
-.image2 {
-    background-image: url("../img/Spain-PR.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.image3 {
-    background-image: url("../img/nyc-wallpaper.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  .title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+
+/* The only rule that matters */
+#video-background {
+    /*  making the video fullscreen  */
+      position: fixed;
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: fixed; 
+      height: fixed;
+      z-index: -100;
+    }
+    
+/* These just style the content */
+article {
+    /*  just a fancy border  */
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 10px solid rgba(255, 255, 255, 0.5);
+      margin: 10px;
+    }
